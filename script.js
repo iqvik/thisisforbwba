@@ -1,6 +1,6 @@
 function sendText() {
     const text = document.getElementById('textInput').value;
-    fetch('http://your-pc-ip-address:3000/speak', {
+    fetch('http://192.168.1.101:5000/speak', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
